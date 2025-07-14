@@ -1,0 +1,146 @@
+[
+  {
+    "_id": "1",
+    "name": "Fresh Apples",
+    "price": 4.99,
+    "unit": "lb",
+    "category": "Fruits",
+    "imageUrl": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400&h=400&fit=crop",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "2",
+    "name": "Bananas",
+    "price": 2.49,
+    "unit": "bunch",
+    "category": "Fruits",
+    "imageUrl": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400&h=400&fit=crop",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "3",
+    "name": "Organic Carrots",
+    "price": 3.99,
+    "unit": "lb",
+    "category": "Vegetables",
+    "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400&h=400&fit=crop",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "4",
+    "name": "Fresh Spinach",
+    "price": 2.99,
+    "unit": "bunch",
+    "category": "Vegetables",
+    "imageUrl": "https://t4.ftcdn.net/jpg/13/16/86/27/240_F_1316862704_REIf0jiBBAgUjQokpyvNN1pdd5NwjHFf.jpg",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "5",
+    "name": "Organic Milk",
+    "price": 3.49,
+    "unit": "gallon",
+    "category": "Dairy",
+    "imageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=400&h=400&fit=crop",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "6",
+    "name": "Greek Yogurt",
+    "price": 5.99,
+    "unit": "32oz",
+    "category": "Dairy",
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=400&fit=crop",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "7",
+    "name": "Chicken Breast",
+    "price": 8.99,
+    "unit": "lb",
+    "category": "Meat",
+    "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=400&h=400&fit=crop",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "8",
+    "name": "Ground Beef",
+    "price": 6.99,
+    "unit": "lb",
+    "category": "Meat",
+    "imageUrl": "https://imgs.search.brave.com/bn1xvCUKwj14gynmEuc1JFd0Ayb_-fJ9Zuw0tY9w30U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzE1LzE0LzAxLzg4/LzM2MF9GXzE1MTQw/MTg4NjBfQ3h6MGRL/dHRTSjFQZFg5NUFZ/TEtTdVZGMmsxRnVV/UmouanBn",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "9",
+    "name": "Whole Grain Bread",
+    "price": 2.99,
+    "unit": "loaf",
+    "category": "Bakery",
+    "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=400&fit=crop",
+    "tags": ["organic", "fresh", "healthy"]
+  },
+  {
+    "_id": "10",
+    "name": "Croissants",
+    "price": 4.49,
+    "unit": "pack",
+    "category": "Bakery",
+    "imageUrl": "https://imgs.search.brave.com/9PWHTeJti37-9c-bBmpHv02o3z4X1o1bjxcpjBQlnGs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmd1/aW0uY28udWsvaW1n/L21lZGlhL2ZkM2Fh/OGFmNTI2OGYyMDBh/ODhkYzhhYjQ3OGFi/MzAwMmFkOGU5NzYv/MF8wXzUwNzJfNDE4/My9tYXN0ZXIvNTA3/Mi5qcGc_d2lkdGg9/NDY1JmRwcj0xJnM9/bm9uZSZjcm9wPW5v/bmU",
+    "tags": ["fresh", "delicious"]
+  },
+  {
+    "_id": "11",
+    "name": "Potato Chips",
+    "price": 3.99,
+    "unit": "bag",
+    "category": "Snacks",
+    "imageUrl": "https://imgs.search.brave.com/LuLvykkSDm4EjQtppGFs-vWxezlEOaOYXjgdJMcqEr8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNDkv/NTg3LzgzOC9zbWFs/bC9wb3RhdG8tY2hp/cHMtZGVsaWNpb3Vz/LWJicS1zZWFzb25p/bmctc3BpY3ktZm9y/LWNyaXBzLXRoaW4t/c2xpY2UtZGVlcC1m/cmllZC1zbmFjay1m/YXN0LWZvb2QtcGhv/dG8uanBn",
+    "tags": ["snack", "crunchy"]
+  },
+  {
+    "_id": "12",
+    "name": "Mixed Nuts",
+    "price": 7.99,
+    "unit": "16oz",
+    "category": "Snacks",
+    "imageUrl": "https://imgs.search.brave.com/EpoQGyQH5CraMV1UdCQEhvZ9OR9Q-7B8jU6j2DqNOoA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1wc2QvZGVs/aWNpb3VzLW1peGVk/LW51dHMtd2hpdGUt/Ym93bC10cmFuc3Bh/cmVudC1iYWNrZ3Jv/dW5kXzg0NDQzLTMx/MTQxLmpwZz9zZW10/PWFpc19oeWJyaWQ",
+    "tags": ["healthy", "protein"]
+  },
+  {
+    "_id": "13",
+    "name": "Orange Juice",
+    "price": 4.99,
+    "unit": "64oz",
+    "category": "Beverages",
+    "imageUrl": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=400&fit=crop",
+    "tags": ["fresh", "vitamin-c"]
+  },
+  {
+    "_id": "14",
+    "name": "Sparkling Water",
+    "price": 2.99,
+    "unit": "12-pack",
+    "category": "Beverages",
+    "imageUrl": "https://imgs.search.brave.com/9oXMgAGTXTdhrgkVBuG8d8SSiPXeWkNWIN45VbmdV6g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzEwLzg3LzI5Lzg3/LzM2MF9GXzEwODcy/OTg3OTJfWE42WmhM/Wk5NSGpVTEYwQVhT/ZmF5V2x5WktvNEhH/clcuanBn",
+    "tags": ["refreshing", "zero-calorie"]
+  },
+  {
+    "_id": "15",
+    "name": "Pasta",
+    "price": 2.49,
+    "unit": "box",
+    "category": "Bakery",
+    "imageUrl": "https://imgs.search.brave.com/u-UfjalVYCSjpReOrfto2zoLnM0AT_0MmtyI5UiqVKI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjUv/NzIxLzE4Ny9zbWFs/bC9yYXctcGFzdGEt/c3BhZ2hldHRpLXVu/Y29va2VkLW1hY2Fy/b25pLWJhY2tncm91/bmQtZ3JvdXAtZm9v/ZC1pbmdyZWRpZW50/LWl0YWxpYW4taGVh/bHRoeS1nZW5lcmF0/aXZlLWFpLXBob3Rv/LmpwZw",
+    "tags": ["italian", "staple"]
+  },
+  {
+    "_id": "16",
+    "name": "Tomato Sauce",
+    "price": 1.99,
+    "unit": "jar",
+    "category": "Snacks",
+    "imageUrl": "https://imgs.search.brave.com/5tFoQ0OlMcKGgDBWnRee89_K_WOLTQFeQ1UYjUzFao0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM0/MTI1MDM2NS9waG90/by90b21hdG8tc2F1/Y2Utd2l0aC1mcmVz/aC10b21hdG9lcy5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/ZldmSFNpUVM5VlZK/R0dHRlp2cDBDSU9M/TGo0b2hNQmx1SHVf/aVNfSWU1Zz0",
+    "tags": ["sauce", "italian"]
+  }
+] 

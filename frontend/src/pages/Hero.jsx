@@ -1,8 +1,37 @@
 import React from 'react';
 import { Button } from '../components/Button';
 import { ShoppingCart, Sparkles, Clock, Brain } from 'lucide-react';
+import { useCart } from '../context/CartContext';
 
-const Hero = () => {
+const Hero = ({ scrollToSection }) => {
+  const { addToCart, getCartItemsCount } = useCart();
+
+  const handleStartShopping = () => {
+    scrollToSection('products');
+  };
+
+  const handleLearnHowItWorks = () => {
+    scrollToSection('how-it-works');
+  };
+
+  const handleGenerateCart = () => {
+    // Add some sample items to cart
+    const sampleItems = [
+      { _id: "1", name: "Fresh Apples", price: 4.99, imageUrl: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400&h=400&fit=crop" },
+      { _id: "5", name: "Organic Milk", price: 3.49, imageUrl: "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=400&h=400&fit=crop" },
+      { _id: "9", name: "Whole Grain Bread", price: 2.99, imageUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=400&fit=crop" },
+      { _id: "13", name: "Orange Juice", price: 4.99, imageUrl: "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=400&fit=crop" }
+    ];
+
+    // Add items to cart
+    sampleItems.forEach(item => {
+      addToCart(item);
+    });
+
+    // Scroll to cart section
+    scrollToSection('smart-cart');
+  };
+
   return (
     <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-12 sm:py-16 lg:py-32 overflow-hidden">
       {/* Background decoration */}
@@ -54,11 +83,20 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="gradient-primary text-white border-0 hover:opacity-90 transition-all duration-200 transform hover:scale-105">
+              <Button 
+                size="lg" 
+                className="gradient-primary text-white border-0 hover:opacity-90 transition-all duration-200 transform hover:scale-105"
+                onClick={handleStartShopping}
+              >
                 <ShoppingCart className="w-5 h-5 mr-2" />
                 Start Smart Shopping
               </Button>
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white transition-all duration-200">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-primary text-primary hover:bg-primary hover:text-white transition-all duration-200"
+                onClick={handleLearnHowItWorks}
+              >
                 Learn How It Works
               </Button>
             </div>
@@ -121,7 +159,10 @@ const Hero = () => {
                     </div>
                   </div>
                   
-                  <Button className="w-full gradient-primary text-white border-0">
+                  <Button 
+                    className="w-full gradient-primary text-white border-0"
+                    onClick={handleGenerateCart}
+                  >
                     Generate My Cart
                   </Button>
                 </div>

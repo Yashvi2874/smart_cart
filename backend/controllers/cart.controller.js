@@ -1,8 +1,9 @@
+// In-memory cart storage (in production, use a proper database)
 let cart = [];
 export { cart };
 
 export const addToCart = (req, res) => {
-  const { productId, name, quantity, price } = req.body;
+  const { productId, name, quantity, price, imageUrl } = req.body;
 
   if (!productId || !name || quantity == null || price == null) {
     return res.status(400).json({ error: "Missing product details" });
@@ -21,7 +22,7 @@ export const addToCart = (req, res) => {
   if (existingItem) {
     existingItem.quantity += numericQuantity;
   } else {
-    cart.push({ productId, name, quantity: numericQuantity, price: numericPrice });
+    cart.push({ productId, name, quantity: numericQuantity, price: numericPrice, imageUrl });
   }
 
   res.status(201).json({ message: "Item added/updated in cart", cart });
@@ -47,4 +48,26 @@ export const getCartTotal = (req, res) => {
   }, 0);
 
   res.json({ total });
+};
+
+export const clearCart = (req, res) => {
+  cart = [];
+  res.json({ message: "Cart cleared", cart });
+};
+
+export const updateCartItem = (req, res) => {
+  const index = parseInt(req.params.index);
+  const { quantity } = req.body;
+
+  if (isNaN(index) || index < 0 || index >= cart.length) {
+    return res.status(404).json({ error: "Invalid index" });
+  }
+
+  if (quantity <= 0) {
+    cart.splice(index, 1);
+    res.json({ message: "Item removed", cart });
+  } else {
+    cart[index].quantity = quantity;
+    res.json({ message: "Item updated", cart });
+  }
 };
