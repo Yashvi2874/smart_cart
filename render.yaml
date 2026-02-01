@@ -3,15 +3,14 @@ services:
     name: smart-cart-frontend
     env: node
     plan: free
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    startCommand: npm run preview
-    staticPublishPath: dist
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npm run preview
+    staticPublishPath: frontend/dist
     envVars:
       - key: NODE_ENV
         value: production
       - key: VITE_API_URL
-        value: https://smart-cart-li2n.onrender.com
+        value: https://smart-cart-backend.onrender.com
       - key: VITE_APP_NAME
         value: Smart Cart
 
@@ -19,15 +18,14 @@ services:
     name: smart-cart-backend
     env: node
     plan: free
-    rootDir: backend
-    buildCommand: npm install
-    startCommand: npm start
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
     envVars:
       - key: NODE_ENV
         value: production
       - key: PORT
         value: 8080
       - key: MONGODB_URI
-        value: your_mongodb_connection_string_here
+        value: mongodb+srv://your-cluster-url
       - key: JWT_SECRET
-        value: your_jwt_secret_here
+        value: your-jwt-secret-here
