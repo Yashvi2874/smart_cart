@@ -3,7 +3,7 @@
 An intelligent e-commerce application with AI-powered product recommendations, smart cart functionality, and seamless shopping experience.
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://smarter-cart.vercel.app/)
-[![Backend API](https://img.shields.io/badge/Backend-API-blue)](https://smart-cart-backend.onrender.com/)
+[![Backend API](https://img.shields.io/badge/Backend-API-blue)](https://smart-cart-li2n.onrender.com)
 [![Implementation Video](https://img.shields.io/badge/Watch-Video-red)](Smart_Cart_AI_powered_application.mp4)
 
 ## 🚀 Live Demo
@@ -11,11 +11,7 @@ An intelligent e-commerce application with AI-powered product recommendations, s
 - **Frontend**: https://smarter-cart.vercel.app/
 - **Backend API**: https://smart-cart-backend.onrender.com/
 
-<div align="center">
-
 ## 🎥 Implementation Video
-
-> **Note:** Video is muted. Download or open locally to hear audio.
 
 <p align="center">
   <video width="800" height="450" controls muted>
@@ -35,19 +31,6 @@ An intelligent e-commerce application with AI-powered product recommendations, s
 | 🌙 **Theme Toggle** | Seamless dark/light mode switching |
 | 📱 **Responsive Design** | Mobile-first design across devices |
 | 🔐 **Authentication** | JWT-based login/signup flow |
-| 🤖 **AI Recommendations** | Personalized product suggestions |
-
-</div>
-
-### 🎯 What You'll See in the Video:
-
-| Feature | Description |
-|---------|-------------|
-| 🛒 **Smart Cart Demo** | Real-time product recommendations and cart management |
-| 🔍 **Product Search** | AI-powered search with intelligent filtering |
-| 🌙 **Dark/Light Theme** | Seamless theme switching demonstration |
-| 📱 **Responsive Design** | Mobile-first design across different devices |
-| 🔐 **User Authentication** | Login/signup flow with JWT tokens |
 | 🤖 **AI Recommendations** | Personalized product suggestions |
 
 </div>
