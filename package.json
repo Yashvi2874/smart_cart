@@ -10,8 +10,9 @@
     "backend:dev": "cd backend && npm run dev",
     "backend:start": "cd backend && npm start",
     "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
-    "build": "npm run frontend:build",
-    "start": "npm run backend:start"
+    "build": "cd frontend && npm install && npm run build",
+    "start": "npm run backend:start",
+    "render-build": "cd frontend && npm install && npm run build"
   },
   "keywords": ["smart-cart", "e-commerce", "ai", "react", "nodejs"],
   "author": "Yashvi",

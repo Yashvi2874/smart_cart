@@ -11,9 +11,46 @@ An intelligent e-commerce application with AI-powered product recommendations, s
 - **Frontend**: https://smarter-cart.vercel.app/
 - **Backend API**: https://smart-cart-backend.onrender.com/
 
+<div align="center">
+
 ## 🎥 Implementation Video
 
-[Watch the implementation walkthrough](Smart_Cart_AI_powered_application.mp4) - A comprehensive demo of the application features and functionality.
+> **Note:** Video is muted. Download or open locally to hear audio.
+
+<p align="center">
+  <video width="800" height="450" controls muted>
+    <source src="Smart_Cart_AI_powered_application.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+<p>📥 <strong>Download Video:</strong> <a href="Smart_Cart_AI_powered_application.mp4">Smart_Cart_AI_powered_application.mp4</a> (89MB)</p>
+
+### 🎯 Features Demonstrated:
+
+| Feature | Description |
+|---------|-------------|
+| 🛒 **Smart Cart** | Real-time product recommendations and cart management |
+| 🔍 **Product Search** | AI-powered search with intelligent filtering |
+| 🌙 **Theme Toggle** | Seamless dark/light mode switching |
+| 📱 **Responsive Design** | Mobile-first design across devices |
+| 🔐 **Authentication** | JWT-based login/signup flow |
+| 🤖 **AI Recommendations** | Personalized product suggestions |
+
+</div>
+
+### 🎯 What You'll See in the Video:
+
+| Feature | Description |
+|---------|-------------|
+| 🛒 **Smart Cart Demo** | Real-time product recommendations and cart management |
+| 🔍 **Product Search** | AI-powered search with intelligent filtering |
+| 🌙 **Dark/Light Theme** | Seamless theme switching demonstration |
+| 📱 **Responsive Design** | Mobile-first design across different devices |
+| 🔐 **User Authentication** | Login/signup flow with JWT tokens |
+| 🤖 **AI Recommendations** | Personalized product suggestions |
+
+</div>
 
 ## 📋 Features
 
@@ -156,10 +193,6 @@ npm run dev
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📞 Contact
-
-For any questions or feedback, please reach out to the development team.
 
 ---
 
