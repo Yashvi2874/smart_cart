@@ -11,8 +11,6 @@ An intelligent e-commerce application with AI-powered product recommendations, s
 - **Frontend**: https://smarter-cart.vercel.app/
 - **Backend API**: https://smart-cart-li2n.onrender.com
 
-<p>📥 <strong>Download Video:</strong> <a href="Smart_Cart_AI_powered_application.mp4">Smart_Cart_AI_powered_application.mp4</a> (89MB)</p>
-
 ### 🎯 Features Demonstrated:
 
 | Feature | Description |
