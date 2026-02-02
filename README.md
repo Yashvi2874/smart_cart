@@ -6,6 +6,8 @@ An intelligent e-commerce application with AI-powered product recommendations, s
 [![Backend API](https://img.shields.io/badge/Backend-API-blue)](https://smart-cart-li2n.onrender.com)
 [![Implementation Video](https://img.shields.io/badge/Watch-Video-red)](Smart_Cart_AI_powered_application.mp4)
 
+https://github.com/user-attachments/assets/d1252fd0-ee3f-40b4-846f-c4da8ef82dac
+
 ## 🚀 Live Demo
 
 - **Frontend**: https://smarter-cart.vercel.app/
