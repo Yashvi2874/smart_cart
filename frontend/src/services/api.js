@@ -25,12 +25,12 @@ class ApiService {
 
   // Products API
   async getProducts() {
-    return this.request('/products');
+    return this.request('/api/products');
   }
 
   // Cart API
   async getCart() {
-    return this.request('/cart');
+    return this.request('/api/cart');
   }
 
   async addToCart(product) {
